@@ -29,13 +29,16 @@ CREATE TABLE tasks (
 );
 
 
+inside beaver-wedding:
 
-npm install beaver-wedding
-nodemon
+- npm install
+- nodemon
 
 
-npm install guest-app
-npm start
+inside guest-app:
+
+- npm install 
+- npm start
 
 
 // must also update .env file with own database credentials 
